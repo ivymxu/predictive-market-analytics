@@ -26,3 +26,7 @@ plt.show()"""),
 plt.tight_layout()
 plt.show()""")
 ]
+
+notebook_path = os.path.join("analysis", "data_analysis.ipynb")
+with open(notebook_path, 'w') as f:
+    nbf.write(nb, f)
