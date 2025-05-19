@@ -14,8 +14,11 @@ data = {
     'target': np.random.choice([0, 1], size=n_samples),
 }
 
+import os
+
 df = pd.DataFrame(data)
-df.to_csv("predictive-market-analytics/data/market_data.csv", index=False)
+os.makedirs("data/", exist_ok=True)
+df.to_csv("data/market_data.csv", index=False)
 
 # sample visualization
 plt.figure(figsize=(8, 6))
@@ -24,5 +27,6 @@ plt.title("Feature1 vs Feature2 Colored by Target")
 plt.xlabel("Feature1")
 plt.ylabel("Feature2")
 plt.grid(True)
-plt.savefig("predictive-market-analytics/visualizations/feature_scatter.png")
+os.makedirs("visualizations/", exist_ok=True)
+plt.savefig("visualizations/feature_scatter.png")
 plt.close()
