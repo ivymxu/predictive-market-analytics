@@ -1,6 +1,6 @@
 # Predictive Analytics for Market Trends and Trading Insights
 
-This project applies predictive analytics to understand market trends and inform trading strategies. Using logistic regression models and BI visualizations, it forecasts financial instrument demand and identifies behavioral patterns to support client-aligned strategies.
+This project applies predictive analytics to understand market trends and inform trading strategies. Using logistic regression models, it forecasts financial instrument demand and identifies behavioral patterns to support client-aligned strategies.
 
 ## Features
 - Business Intelligence dashboard to visualize key market metrics
@@ -14,18 +14,11 @@ This project applies predictive analytics to understand market trends and inform
 - SQL
 - Jupyter Notebooks / VS Code
 
-## Dashboard Preview
-*Insert preview*
-
 ## Project Structure
 - data -> Raw and cleaned datasets
 - models -> Logistic regression scripts
 - visualizations -> Plots, charts, and dashboard exports
 - analysis -> Jupyter notebooks for data exploration
-
-
-## Sample Insights
-*Findings and model outcomes*
 
 ## How to Run
 1. Clone the repo  
