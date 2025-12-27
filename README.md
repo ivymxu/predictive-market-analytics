@@ -20,9 +20,8 @@ This project explores real-world and sample data to understand market trends and
 - analysis -> Jupyter notebooks for data exploration
 
 ## How to Run
-1. Clone the repo  
-2. Install requirements (`pip install -r requirements.txt`)  
-3. Run analysis scripts in the `analysis/` folder  
+- Install requirements (`pip install -r requirements.txt`)  
+- Run analysis scripts in the `analysis/` folder  
 
 ## License
 This project is licensed under the MIT License.
